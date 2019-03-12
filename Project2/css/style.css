@@ -26,6 +26,8 @@ ul li a {
     color: #fff;
     text-decoration: none;
     display: block;
+    text-transform: uppercase;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 
 ul li ul {
