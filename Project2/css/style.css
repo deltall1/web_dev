@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 854px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    background: lightseagreen;
+    float: left;
+    text-align: center;
+    margin-right: 2px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+ul li ul {
+    display: none;
+}
+
+ul li ul li {
+    border-top: 2px solid #fff;
+}
+
+ul li:hover ul {
+    display: block;
+}
